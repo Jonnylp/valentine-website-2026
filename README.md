@@ -45,7 +45,7 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jaz my love"                    // Your Valentine's name
+valentineName: "Jaz"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
@@ -68,7 +68,9 @@ questions: {
         nextBtn: "Next ❤️"                         // Next button text
     },
     third: {
-        text: "Will you be my Valentine...?",      // Final question
+        text: "Will you be my Valentine
+
+?",      // Final question
         yesBtn: "Yes!",                            // Yes button text
         noBtn: "No"                                // No button text
     }
